@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Mundialito
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App destinada a realizar seguimientos de mundiales de FIFA22, donde se podrá definir fases de grupos, octavos, cuartos, semifinales y finales.
 
-## Available Scripts
+## Link de la app
 
-In the project directory, you can run:
+https://mundialito-kappa.vercel.app/
 
-### `npm start`
+### 1 Elegir modo aleatorio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Por el momento solo está disponible el modo aleatorio, más adelante se creará el modo en el que se puedan asignar cada jugador a cada equipo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2 Ingrese los usuarios a jugar
 
-### `npm test`
+Si no completa los 32 usuarios no es necesario que los complete, a continuación presione "Comenzar mundial".
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3 Fase de grupos
 
-### `npm run build`
+Ahora verá cuadro por cada grupo, en el mismo podrá ver el país y a su derecha el jugador asignado aleatoriamente, seguidos de los puntos, goles a favor, goles en contra y diferencias de goles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4 Partidos fases de grupos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+En la base del cuadro se veran los partidos a jugar en la fase de grupos, debera asignar los resultados correspondientes, una vez finalizado el partido, presione el boton amarillo a la derecha de cada partido para darlo finalizado, una vez finalizado no se podra volver a modificar.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 5 Pasar a llaves
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se seleccionarán los equipos correspondientes que pasen a la siguiente fase del campeonato, a partir de ahora es necesario que se completen todos los resultados, si llegara a ser el caso de que dos equipos controlados por la CPU tenga que jugar, ingrese un resultado aleatorio si así lo desea.
